@@ -4,11 +4,31 @@
   padding: 0;
 }
 
-
-
 /* Sytle content */
 .logo {
   width: 90px;
   height: 90px
+}
+
+.cover-image {
+  position: relative;
+  top: 4em;
+  background: url("../img/web_dev.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-content {
+  margin: 0 auto;
+}
+
+.cover-content h1 {
+  color: white;
+}
+
+.cover-content h2 {
+  color: white;
 }
 
