@@ -1,0 +1,18 @@
+/* Setup global */
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* Sytle content */
+.logo {
+  width: 90px;
+  height: 90px
+}
+
