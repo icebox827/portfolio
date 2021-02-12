@@ -10,8 +10,16 @@
   height: 90px
 }
 
+#navbarNav a:hover {
+  background-color: rgb(221, 208, 250);
+}
+
+p {
+  margin: 5px;
+}
+
 .cover-image {
-  position: relative;
+  position: absolute;
   width:100%;
   top: 4em;
   height: 89.7vh;
@@ -32,7 +40,7 @@
 .cover-content {
   width: 100%;
   position: relative;
-  top: 55px;
+  top: 100px;
   margin-left: 15px;
   z-index: 9999;
 }
@@ -46,7 +54,7 @@
 .flip-card {
   background-color: transparent;
   width: 600px;
-  height: 600px;
+  height: 578px;
   border: 3px solid #f1f1f1;
   perspective: 1000px; 
 }
@@ -78,7 +86,7 @@
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: rgb(14, 28, 158);
   color: white;
   transform: rotateY(180deg);
 }
