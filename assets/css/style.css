@@ -25,7 +25,7 @@
 .cover-gradient {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgb(243, 241, 241), white);
+  background: linear-gradient(to top, rgb(243, 241, 241), rgb(88, 137, 243));
   opacity: 0.5;
 }
 
@@ -34,24 +34,51 @@
   position: relative;
   top: 55px;
   margin-left: 15px;
-  z-index: 1;
-}
-
-.cover-content h1 {
-  color: rgb(58, 5, 128);
-  justify-self: center;
-  text-align: center;
-}
-
-.cover-content h2 {
-  color: rgb(58, 5, 128);
-  text-align: center;
+  z-index: 9999;
 }
 
 .profile_pic {
   position: relative;
   height: 500px;
-  width: 450px;
-  z-index: initial;
+  width: 600px;
 }
 
+.flip-card {
+  background-color: transparent;
+  width: 600px;
+  height: 600px;
+  border: 3px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
