@@ -25,7 +25,6 @@ p {
   height: 89.7vh;
   background: url("../img/web_dev.png");
   object-fit: cover;
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -40,9 +39,9 @@ p {
 .cover-content {
   width: 100%;
   position: relative;
-  top: 100px;
+  top: 140px;
   margin-left: 15px;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .profile_pic {
