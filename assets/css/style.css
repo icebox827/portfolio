@@ -12,8 +12,9 @@
 
 .cover-image {
   position: relative;
-  top: 4.5em;
-  height: 87vh;
+  width:100%;
+  top: 4em;
+  height: 100vh;
   background: url("../img/web_dev.png");
   object-fit: cover;
   background-position: center;
@@ -29,15 +30,28 @@
 }
 
 .cover-content {
-  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  top: 55px;
+  margin-left: 15px;
   z-index: 1;
 }
 
 .cover-content h1 {
   color: rgb(58, 5, 128);
+  justify-self: center;
+  text-align: center;
 }
 
 .cover-content h2 {
   color: rgb(58, 5, 128);
+  text-align: center;
+}
+
+.profile_pic {
+  position: relative;
+  height: 500px;
+  width: 450px;
+  z-index: initial;
 }
 
