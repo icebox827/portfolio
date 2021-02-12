@@ -40,11 +40,10 @@ p {
   width: 100%;
   position: relative;
   top: 140px;
-  margin-left: 15px;
   z-index: 1;
 }
 
-.profile_pic {
+.profile-pic {
   position: relative;
   height: 500px;
   width: 600px;
@@ -55,7 +54,7 @@ p {
   width: 600px;
   height: 578px;
   border: 3px solid #f1f1f1;
-  perspective: 1000px; 
+  perspective: 900px; 
 }
 
 .flip-card-inner {
@@ -88,4 +87,59 @@ p {
   background-color: rgb(14, 28, 158);
   color: white;
   transform: rotateY(180deg);
+}
+
+.about-me {
+  position: relative;
+  top: 190px;
+}
+
+.about-me h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-me p {
+  text-align: center;
+  
+}
+
+/* Media Queries */
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 178px;
+    border: 3px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: rgb(14, 28, 158);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
 }
