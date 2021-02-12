@@ -25,6 +25,7 @@ p {
   height: 89.7vh;
   background: url("../img/web_dev.png");
   object-fit: cover;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -101,7 +102,6 @@ p {
 
 .about-me p {
   text-align: center;
-  
 }
 
 /* Media Queries */
