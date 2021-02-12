@@ -39,7 +39,7 @@ p {
 .cover-content {
   width: 100%;
   position: relative;
-  top: 140px;
+  top: 100px;
   z-index: 1;
 }
 
