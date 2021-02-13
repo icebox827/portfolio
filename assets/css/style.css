@@ -22,7 +22,7 @@ p {
   position: absolute;
   width:100%;
   top: 4em;
-  height: 89.7vh;
+  height: 95vh;
   background: url("../img/web_dev.png");
   object-fit: cover;
   background-position: center;
@@ -92,7 +92,7 @@ p {
 
 .about-me {
   position: relative;
-  top: 190px;
+  top: 200px;
 }
 
 .about-me h1 {
@@ -101,6 +101,20 @@ p {
 }
 
 .about-me p {
+  text-align: center;
+}
+
+.social-card a {
+  color: black;
+}
+
+.my-skills {
+  position: relative;
+  top: 27git0px;
+}
+
+.my-skills h1 {
+  text-transform: uppercase;
   text-align: center;
 }
 
