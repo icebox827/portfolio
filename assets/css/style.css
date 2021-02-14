@@ -110,12 +110,21 @@ p {
 
 .my-skills {
   position: relative;
-  top: 27git0px;
+  top: 270px;
 }
 
 .my-skills h1 {
   text-transform: uppercase;
   text-align: center;
+}
+
+.skills-card .card-body {
+  border: none;
+}
+
+.skills-card .card-body img {
+  width: 16rem;
+  height: 16rem;
 }
 
 /* Media Queries */
