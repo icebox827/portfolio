@@ -137,6 +137,16 @@
     text-align: center;
   }
 
+  .my-contact {
+    position: relative;
+    top: 300px;
+  }
+
+  .my-contact h1 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
   /* Padding */
 #portfolio {
     padding-top: 1rem;
