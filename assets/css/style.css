@@ -126,7 +126,16 @@
     width: 16rem;
     height: 16rem;
   }
+
+  .my-project {
+    position: relative;
+    top: 300px;
+  }
   
+  .my-project h1 {
+    text-transform: uppercase;
+    text-align: center;
+  }
   /* Media Queries */
   
   @media (min-width: 360px) and (max-width: 767px) {
