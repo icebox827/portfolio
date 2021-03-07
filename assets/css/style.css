@@ -123,8 +123,8 @@
   }
   
   .skills-card .card-body img {
-    width: 16rem;
-    height: 16rem;
+    width: 12rem;
+    height: 14rem;
   }
 
   .my-project {
@@ -132,9 +132,14 @@
     top: 300px;
   }
   
+
   .my-project h1 {
     text-transform: uppercase;
     text-align: center;
+  }
+
+  .my-project .projects-card {
+    width: 22rem;
   }
 
   .my-contact {
