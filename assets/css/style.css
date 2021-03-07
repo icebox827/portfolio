@@ -1,163 +1,174 @@
 /* Setup global */
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Sytle content */
-  .logo {
-    width: 90px;
-    height: 90px
-  }
-  
-  #navbarNav a:hover {
-    background-color: rgb(221, 208, 250);
-  }
-  
-  p {
-    margin: 5px;
-  }
-  
-  .cover-image {
-    position: absolute;
-    width:100%;
-    top: 4em;
-    height: 95vh;
-    background: url("../img/web_dev.png");
-    object-fit: cover;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .cover-gradient {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to top, rgb(243, 241, 241), rgb(88, 137, 243));
-    opacity: 0.5;
-  }
-  
-  .cover-content {
-    width: 100%;
-    position: relative;
-    top: 100px;
-    z-index: 1;
-  }
-  
-  .profile-pic {
-    position: relative;
-    height: 100%;
-    width: 600px;
-  }
-  
-  .flip-card {
-    background-color: transparent;
-    width: 600px;
-    height: 578px;
-    border: 3px solid #f1f1f1;
-    perspective: 900px; 
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-card-back {
-    background-color: rgb(14, 28, 158);
-    color: white;
-    transform: rotateY(180deg);
-  }
-  
-  .about-me {
-    position: relative;
-    top: 200px;
-  }
-  
-  .about-me h1 {
-    text-transform: uppercase;
-    text-align: center;
-  }
-  
-  .about-me p {
-    text-align: center;
-  }
-  
-  .social-card a {
-    color: black;
-  }
-  
-  .my-skills {
-    position: relative;
-    top: 270px;
-  }
-  
-  .my-skills h1 {
-    text-transform: uppercase;
-    text-align: center;
-  }
-  
-  .skills-card .card-body {
-    border: none;
-  }
-  
-  .skills-card .card-body img {
-    width: 12rem;
-    height: 14rem;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .my-project {
-    position: relative;
-    top: 300px;
-  }
+/* Sytle content */
+.logo {
+  width: 90px;
+  height: 90px
+}
+
+#navbarNav a:hover {
+  background-color: rgb(221, 208, 250);
+}
+
+p {
+  margin: 5px;
+}
+
+.cover-image {
+  position: absolute;
+  width:100%;
+  top: 4em;
+  height: 100%;
+  background: url("../img/web_dev.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-gradient {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(243, 241, 241), rgb(88, 137, 243));
+  opacity: 0.5;
+}
+
+.cover-content {
+  width: 100%;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+
+.profile-pic {
+  position: relative;
+  height: 100%;
+  width: 600px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 600px;
+  height: 578px;
+  border: 3px solid #f1f1f1;
+  perspective: 900px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: rgb(14, 28, 158);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.about-me {
+  position: relative;
+  top: 190px;
+  background-color: rgb(17, 11, 43);
+}
+
+.about-me h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}
   
+.about-me p {
+  text-align: center;
+  color: white;
+  padding-bottom: 40px;
+}
 
-  .my-project h1 {
-    text-transform: uppercase;
-    text-align: center;
-  }
+.social-card a {
+  color: black;
+}
 
-  .my-project .projects-card {
-    width: 22rem;
-  }
+.my-skills {
+  position: relative;
+  top: 230px;
+  margin: 10px;
+  background-image: url("../img/surface-pro.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  .my-contact {
-    position: relative;
-    top: 300px;
-  }
+.my-skills h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
 
-  .my-contact h1 {
-    text-transform: uppercase;
-    text-align: center;
-  }
+.skills-card .card-body {
+  border: none;
+}
+
+.skills-card .card-body img {
+  width: 100%;
+  height: 17rem;
+}
+
+.my-project {
+  position: relative;
+  top: 300px;
+}
+
+
+.my-project h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.my-project .projects-card {
+  width: 26rem;
+}
+
+.my-contact {
+  position: relative;
+  top: 330px;
+}
+
+.my-contact h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
 
   /* Padding */
 #portfolio {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    animation: slideMe 1.5s ease-in-out;
-    }
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  animation: slideMe 1.5s ease-in-out;
+}
     
     /* Center align the text */
     #portfolio {
