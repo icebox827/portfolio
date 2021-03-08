@@ -181,6 +181,12 @@ p {
   position: relative;
   top: 190px;
   width: 100%;
+  background-image: url("../img/pexels-negative-space-33999.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 45px;
 }
 
 .my-contact h1 {
@@ -189,6 +195,9 @@ p {
   padding-top: 50px;
 }
 
+.my-contact hr {
+  border: solid 2px;
+}
   /* Padding */
 #portfolio {
   padding-top: 1rem;
