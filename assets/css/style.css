@@ -93,7 +93,7 @@ p {
 .about-me {
   position: relative;
   width: 100%;
-  top: 190px;
+  top: 135px;
   background-color: rgb(17, 11, 43);
 }
 
@@ -121,7 +121,7 @@ p {
 
 .my-skills {
   position: relative;
-  top: 190px;
+  top: 135px;
   width: 100%;
   background-image: url("../img/surface-pro.png");
   object-fit: cover;
@@ -154,7 +154,7 @@ p {
 
 .my-project {
   position: relative;
-  top: 190px;
+  top: 135px;
   width: 100%;
   background-color: rgb(17, 11, 43);
   padding-bottom: 45px;
@@ -198,6 +198,14 @@ p {
 .my-contact hr {
   border: solid 2px;
 }
+
+.my-footer {
+  position: relative;
+  top: 135px;
+  width: 100%;
+  background-color: black;
+}
+
   /* Padding */
 #portfolio {
   padding-top: 1rem;
