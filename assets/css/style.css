@@ -294,6 +294,10 @@ text-align: center !important;
 }
   
 @media (min-width: 768px) and (max-width: 991px) {
+  .card .skills-card {
+    margin-bottom: 10px;
+  }
+
   .my-project {
     display: flex;
     flex-wrap: wrap;
@@ -303,5 +307,9 @@ text-align: center !important;
    .my-project .projects-card {
     width: 100%;
     margin-bottom: 15px;
+  }
+
+  .my-project h1 {
+    text-align: center;
   }
 }
