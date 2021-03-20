@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: ;
+}
+
 /* Sytle content */
 .logo {
   width: 90px;
