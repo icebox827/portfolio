@@ -1,319 +1,42 @@
-/* Setup global */
+/* Set globals */
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  overflow-x: ;
+  overflow-x: hidden;
 }
 
-/* Sytle content */
+
 .logo {
-  width: 90px;
-  height: 90px
+  width: 80px;
+  height: 50px;
 }
 
-#navbarNav a:hover {
-  background-color: rgb(221, 208, 250);
-}
-
-p {
-  margin: 5px;
-}
-
-.cover-image {
-  position: absolute;
-  width: 100%;
-  top: 4em;
-  height: 100%;
-  background: url("../img/web_dev.png");
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.cover-gradient {
+.jumbotron {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgb(243, 241, 241), rgb(88, 137, 243));
-  opacity: 0.5;
+}
+
+.text-content {
+  width: 50%;
+  margin-top: 10rem;
+  padding-left: 15px;
+  z-index: 9999;
 }
 
 .cover-content {
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.cover-content .card {
+  width: 95%;
+}
+
+.cover-content img {
   width: 100%;
-  position: relative;
-  top: 100px;
-  z-index: 1;
-}
-
-.profile-pic {
-  position: relative;
-  height: 100%;
-  width: 600px;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 600px;
-  height: 578px;
-  border: 3px solid #f1f1f1;
-  perspective: 900px; 
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: rgb(14, 28, 158);
-  color: white;
-  transform: rotateY(180deg);
-}
-
-.about-me {
-  position: relative;
-  width: 100%;
-  top: 135px;
-  background-color: rgb(17, 11, 43);
-}
-
-.about-me h1 {
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
-  padding-top: 40px;
-}
-  
-.about-me p {
-  text-align: center;
-  color: white;
-  padding-bottom: 40px;
-}
-
-.about-me hr {
-  color: #f1f1f1;
-  border: solid 2px;
-}
-
-.social-card a {
-  color: black;
-}
-
-.my-skills {
-  position: relative;
-  top: 135px;
-  width: 100%;
-  background-image: url("../img/surface-pro.png");
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 45px;
-}
-
-.my-skills h1 {
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.my-skills hr {
-  color: #f0eff7;
-  border: solid 2px;
-}
-
-.skills-card .card-body {
-  border: none;
-  padding-bottom: 15px;
-}
-
-.skills-card .card-body img {
-  width: 100%;
-  height: 17rem;
-}
-
-.my-project {
-  position: relative;
-  top: 135px;
-  width: 100%;
-  background-color: rgb(17, 11, 43);
-  padding-bottom: 45px;
-}
-
-
-.my-project h1 {
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
-  padding-top: 50px;
-}
-
-.my-project hr {
-  color: #f1f1f1;
-  border: solid 2px;
-}
-
-.my-project .projects-card {
-  width: 26rem;
-}
-
-.my-contact {
-  position: relative;
-  top: 75px;
-  width: 100%;
-  background-image: url("../img/pexels-negative-space-33999.jpg");
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 75px;
-}
-
-.my-contact h1 {
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.my-contact hr {
-  border: solid 2px;
-}
-
-.my-footer {
-  position: relative;
-  top: 135px;
-  width: 100%;
-  background-color: black;
-}
-
-  /* Padding */
-#portfolio {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  animation: slideMe 1.5s ease-in-out;
-}
-    
-/* Center align the text */
-#portfolio {
-text-align: center !important;
-}
-
-/*animations*/
-@keyframes slideMe{
-  0%{
-      transform: skewX(53deg) translateX(-500px);
-      opacity: 0;
-  }
-  60%{
-      transform: translateX(0px);
-  }
-  62%{
-      transform: skewX(0deg) translateX(30px);
-  }
-  70%{
-      transform: skew(-20deg);
-      opacity: 1;
-  }
-  80%{
-      transform: skew(0deg) translate(0px);
-  }
-  90%{
-      transform: skew(-5deg);
-  }
-  100%{
-      transform: skew(0deg);
-  }
-}
-  
-  
-/* Media Queries */
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .flip-card {
-    background-color: transparent;
-    width: 200px;
-    height: 178px;
-    border: 3px solid #f1f1f1;
-    perspective: 1000px; 
-  }
-
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-card-back {
-    background-color: rgb(14, 28, 158);
-    color: white;
-    transform: rotateY(180deg);
-  }
-  
-  .my-skills {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-  }
-
-  .my-project {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-   }
-}
-  
-@media (min-width: 768px) and (max-width: 991px) {
-  .card .skills-card {
-    margin-bottom: 10px;
-  }
-
-  .my-project {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   }
-
-   .my-project .projects-card {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-
-  .my-project h1 {
-    text-align: center;
-  }
+  height: 80vh;
+  object-fit: contain;
 }
