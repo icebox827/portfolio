@@ -59,13 +59,23 @@ body {
 }
 
 .about hr {
+  width: 15%;
   border: black solid 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about img {
+  display: block;
   width: 40vh;
   height: 40vh;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about .about-text {
+  text-align: center;
 }
 
 /* Media Queries */
@@ -92,6 +102,10 @@ body {
   }
 
   .text-content h2{ 
+    display: none;
+  }
+
+  .mobile-hide {
     display: none;
   }
 }
