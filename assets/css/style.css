@@ -46,3 +46,31 @@ body {
   height: 80vh;
   object-fit: contain;
 }
+
+/* Media Queries */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .jumbotron {
+    flex-direction: column;
+  }
+
+  .cover-content {
+    position: relative;
+    bottom: 70vh;
+    width: 100%;
+  }
+
+  .text-content {
+    position: relative;
+    top: 12vh;
+    align-self: center;
+  }
+
+  .text-content h1{ 
+    display: none;
+  }
+
+  .text-content h2{ 
+    display: none;
+  }
+}
