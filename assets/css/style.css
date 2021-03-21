@@ -78,6 +78,32 @@ body {
   text-align: center;
 }
 
+/* Skills Section */
+.skills {
+  width: 100%;
+  background-image: url(../img/thick-smoke-on-black-background.jpg);
+}
+
+.skills h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+  color: white;
+}
+
+.skills hr {
+  width: 15%;
+  border: rgb(255, 255, 255) solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills img {
+  width: 18rem;
+  height: 18rem;
+  margin: 8px;
+}
+
 /* Media Queries */
 
 @media (min-width: 320px) and (max-width: 767px) {
