@@ -82,6 +82,8 @@ body {
 .skills {
   width: 100%;
   background-image: url(../img/thick-smoke-on-black-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .skills h1 {
