@@ -80,30 +80,11 @@ body {
 
 /* Skills Section */
 .skills {
-  width: 100%;
-  background-image: url(../img/thick-smoke-on-black-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.skills h1 {
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 15px;
-  color: white;
-}
-
-.skills hr {
-  width: 15%;
-  border: rgb(255, 255, 255) solid 2px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.skills img {
-  width: 18rem;
-  height: 18rem;
-  margin: 8px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-content: center;
 }
 
 /* Media Queries */
