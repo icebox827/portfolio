@@ -74,6 +74,21 @@ body {
   margin-right: auto;
 }
 
+.carousel-item img {
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item h5 {
+  text-align: center;
+}
+
+.carousel-item p {
+  text-align: center;
+}
+
 /* Skills Section */
 .skills {
   width: 100%;
@@ -81,6 +96,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5rem;
 }
 
 .skills h1 {
@@ -116,10 +132,32 @@ body {
   gap: 25px;
 }
 
+.projects {
+  width: 100%;
+  background-image: url(../img/screen-0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+
+.projects h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
+}
+
+.projects hr {
+  width: 15%;
+  border: white solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-footer {
   width: 100%;
 }
-
 
 /* Media Queries */
 
