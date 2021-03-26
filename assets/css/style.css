@@ -74,7 +74,7 @@ body {
   margin-right: auto;
 }
 
-.carousel-item img {
+.carousel-item .testimonial img {
   display: block;
   border-radius: 50%;
   margin-left: auto;
@@ -146,6 +146,7 @@ body {
   text-align: center;
   color: white;
   padding-top: 2rem;
+  z-index: 9999;
 }
 
 .projects hr {
@@ -154,6 +155,50 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.projects .card {
+  width: 100%;
+  height: 65vh;
+}
+
+#portfolio {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  animation: slideMe 1.5s ease-in-out;
+}
+    
+/* Center align the text */
+#portfolio {
+text-align: center !important;
+}
+
+/*animations*/
+@keyframes slideMe{
+  0%{
+      transform: skewX(53deg) translateX(-500px);
+      opacity: 0;
+  }
+  60%{
+      transform: translateX(0px);
+  }
+  62%{
+      transform: skewX(0deg) translateX(30px);
+  }
+  70%{
+      transform: skew(-20deg);
+      opacity: 1;
+  }
+  80%{
+      transform: skew(0deg) translate(0px);
+  }
+  90%{
+      transform: skew(-5deg);
+  }
+  100%{
+      transform: skew(0deg);
+  }
+}
+  
 
 .my-footer {
   width: 100%;
