@@ -8,10 +8,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/tyg1nlb.css">
-  
   <!-- Bootstrap CSS files -->
-  <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Denis Lafontant - Full-Stack Web Developer</title>
 </head>
 <body>
@@ -49,7 +49,7 @@
     <!-- Home Section -->
     <section id="home">
       <div class="jumbotron d-flex justify-content-between">
-        <div class="text-content">
+        <div class="text-content" data-aos="fade-right">
           <h1>Hi! I'm a web developer & Designer</h1>
           <h2>Full-Stack Developer | Wordpress | Moodle</h2>
           <div class="social">
@@ -59,7 +59,7 @@
             <a href="https://medium.com/@icebox827"><i class="fa fa-medium fa-4x" aria-hidden="true"></i></a>
           </div>
         </div>
-        <div class="cover-content">
+        <div class="cover-content" data-aos="fade-left">
           <img src="./assets/img/logo_transparent.png" alt="logo-cover" class="img-fluid">
         </div>
       </div>
@@ -90,25 +90,17 @@
     </section>
     <!-- Skills Section -->
     <section id="skills">
-      <h1>skills</h1>
-      <div class="skills-grid">
-        <img src="./assets/img/HTML5.png" alt="HTML5" class="grid-item-1 img-fluid">
-        <img src="./assets/img/CSS_logo.png" alt="CSS3" class="grid-item-2 img-fluid">
-        <img src="./assets/img/imgbin-javascript_logo.png" alt="JavaScript" class="grid-item-3 img fluid">
-        <img src="./assets/img/Ruby_Logo.png" alt="Ruby" class="grid-item-4 img-fluid">
-        <img src="./assets/img/sql_logo.jpg" alt="SQL" class="grid-item-5 img-fluid">
-        <img src="./assets/img/Ruby_on_Rails-logo.png" alt="Ruby on Rails" class="grid-item-6 img-fluid">
-        <img src="./assets/img/reactjs_logo.jpg" alt="React" class="grid-item-7 img-fluid">
-        <img src="./assets/img/redux_logo.png" alt="Redux" class="grid-item-8 img-fluid">
-        <img src="./assets/img/mysql_logo.png" alt="MySQL" class="grid-item-9 img-fluid">
-        <img src="./assets/img/nodejs_logo.png" alt="Node" class="grid-item-10 img-fluid">
-        <img src="./assets/img/aws_logo.png" alt="AWS" class="grid-item-11 img-fluid">
-        <img src="./assets/img/angular_logo.svg" alt="Angular" class="grid-item-12 img-fluid">
+      <div class="skills">
+        <h1>skills</h1>
+        <hr>
+        
       </div>
     </section>
   </main>
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <!-- Addons script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
