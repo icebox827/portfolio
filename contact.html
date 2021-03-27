@@ -70,23 +70,25 @@
 						  <div class="col-md-8">
 							<div class="card-body">
 							  <h5 class="card-title">Get in touch</h5>
-							  <p class="card-text">
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Full name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                  <div class="col text-center">
-                    <button type="submit" class="btn btn-primary">Send</button>
-                  </div>
-                </p>
+							  <div class="card-text">
+                  <form name="myemailform" action="form-to-email.php" method="POST">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Full name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" pattern=".{10,}" required></textarea>
+                    </div>
+                    <div class="col text-center">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </form>
+                </div>
 							</div>
 						  </div>
 						</div>
@@ -98,6 +100,16 @@
 	<!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <!-- Addons script -->
+  <script src="./assets/js/main.js"></script>
+  <script language="JavaScript">
+    // Code for validating the form
+    // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+    // for details
+    var frmvalidator  = new Validator("myemailform");
+    frmvalidator.addValidation("name","req","Please provide your name"); 
+    frmvalidator.addValidation("email","req","Please provide your email"); 
+    frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+    </script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>AOS.init();</script>
 	</body>
