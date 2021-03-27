@@ -172,6 +172,40 @@ body {
 text-align: center !important;
 }
 
+.contact {
+  width: 100%;
+  height: 89vh;
+  background-image: url(../img/pexels-negative-space-33999.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact hr {
+  width: 15%;
+  border: black solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact .card {
+  width: 60%;
+  height: 60vh;
+  border: black solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.social {
+  margin-left: 15px;
+}
+
 /*animations*/
 @keyframes slideMe{
   0%{
