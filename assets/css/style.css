@@ -206,6 +206,10 @@ text-align: center !important;
   margin-left: 15px;
 }
 
+.social a:hover {
+  animation: fadeIn 3s;
+}
+
 /*animations*/
 @keyframes slideMe{
   0%{
@@ -230,6 +234,16 @@ text-align: center !important;
   }
   100%{
       transform: skew(0deg);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
   
