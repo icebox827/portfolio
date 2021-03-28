@@ -1,307 +1,299 @@
-/* Setup global */
+/* Set globals */
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
+<<<<<<< HEAD
   overflow-x: hidden;
 }
 
 /* Sytle content */
+=======
+	overflow-x: hidden;
+}
+
+/* Home section */
+>>>>>>> develop
 .logo {
-  width: 90px;
-  height: 90px
+	width: 80px;
+	height: 50px;
 }
 
-#navbarNav a:hover {
-  background-color: rgb(221, 208, 250);
+.jumbotron {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/dark-grunge-style-scratched-metal-surface_1048-12951.jpg);
 }
 
-p {
-  margin: 5px;
+.text-content {
+	width: 50%;
+	margin-top: 10rem;
+	padding-left: 15px;
+	z-index: 9999;
 }
 
-.cover-image {
-  position: absolute;
-  width: 100%;
-  top: 4em;
-  height: 100%;
-  background: url("../img/web_dev.png");
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.text-content h1 {
+	color: white;
 }
 
-.cover-gradient {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top, rgb(243, 241, 241), rgb(88, 137, 243));
-  opacity: 0.5;
+.text-content h2 {
+	color: white;
 }
 
 .cover-content {
+<<<<<<< HEAD
   width: 100%;
   height: 100%;
   position: relative;
   top: 100px;
   z-index: 1;
+=======
+	width: 50%;
+	margin-top: 1rem;
+	z-index: 9999;
+>>>>>>> develop
 }
 
-.profile-pic {
-  position: relative;
-  height: 100%;
-  width: 600px;
+.cover-content img {
+	width: 100%;
+	height: 80vh;
+	object-fit: contain;
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 600px;
-  height: 578px;
-  border: 3px solid #f1f1f1;
-  perspective: 900px; 
+/* About section */
+
+.about {
+	width: 100%;
 }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+.about h1 {
+	text-transform: uppercase;
+	text-align: center;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+.about hr {
+	width: 15%;
+	border: black solid 2px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+.about img {
+	display: block;
+	width: 40vh;
+	height: 40vh;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
+.carousel-item .testimonial img {
+	display: block;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.flip-card-back {
-  background-color: rgb(14, 28, 158);
-  color: white;
-  transform: rotateY(180deg);
+.carousel-item h5 {
+	text-align: center;
 }
 
-.about-me {
-  position: relative;
-  width: 100%;
-  top: 135px;
-  background-color: rgb(17, 11, 43);
+.carousel-item p {
+	text-align: center;
 }
 
-.about-me h1 {
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
-  padding-top: 40px;
-}
-  
-.about-me p {
-  text-align: center;
-  color: white;
-  padding-bottom: 40px;
+/* Skills Section */
+.skills {
+	width: 100%;
+	background-image: url(../img/thick-smoke-on-black-background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 5rem;
 }
 
-.about-me hr {
-  color: #f1f1f1;
-  border: solid 2px;
+.skills h1 {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 3rem;
 }
 
-.social-card a {
-  color: black;
+.skills hr {
+	width: 15%;
+	border: white solid 2px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.my-skills {
-  position: relative;
-  top: 135px;
-  width: 100%;
-  background-image: url("../img/surface-pro.png");
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 45px;
+.card {
+	width: 18rem;
+	height: 20rem;
 }
 
-.my-skills h1 {
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 50px;
+.card img {
+	width: 100%;
+	height: 40vh;
+	padding-top: 15px;
 }
 
-.my-skills hr {
-  color: #f0eff7;
-  border: solid 2px;
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	width: 100%;
+	gap: 25px;
 }
 
-.skills-card .card-body {
-  border: none;
-  padding-bottom: 15px;
+.projects {
+	width: 100%;
+	background-image: url(../img/screen-0.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 5rem;
 }
 
-.skills-card .card-body img {
-  width: 100%;
-  height: 17rem;
+.projects h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	padding-top: 2rem;
+	z-index: 9999;
 }
 
-.my-project {
-  position: relative;
-  top: 135px;
-  width: 100%;
-  background-color: rgb(17, 11, 43);
-  padding-bottom: 45px;
+.projects hr {
+	width: 15%;
+	border: white solid 2px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-
-.my-project h1 {
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
-  padding-top: 50px;
+.projects .card {
+	width: 100%;
+	height: 65vh;
 }
 
-.my-project hr {
-  color: #f1f1f1;
-  border: solid 2px;
-}
-
-.my-project .projects-card {
-  width: 26rem;
-}
-
-.my-contact {
-  position: relative;
-  top: 75px;
-  width: 100%;
-  background-image: url("../img/pexels-negative-space-33999.jpg");
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 75px;
-}
-
-.my-contact h1 {
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.my-contact hr {
-  border: solid 2px;
-}
-
-.my-footer {
-  position: relative;
-  top: 135px;
-  width: 100%;
-  background-color: black;
-}
-
-  /* Padding */
 #portfolio {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  animation: slideMe 1.5s ease-in-out;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	animation: slideMe 1.5s ease-in-out;
 }
-    
+
 /* Center align the text */
 #portfolio {
-text-align: center !important;
+	text-align: center !important;
+}
+
+.contact {
+	width: 100%;
+	height: 89vh;
+	background-image: url(../img/pexels-negative-space-33999.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contact h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contact hr {
+	width: 15%;
+	border: black solid 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact .card {
+	width: 60%;
+	height: 60vh;
+	border: black solid 2px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 8px #888888;
+}
+
+.social {
+	margin-left: 15px;
+}
+
+.social a:hover {
+	animation: fadeIn 3s;
 }
 
 /*animations*/
-@keyframes slideMe{
-  0%{
-      transform: skewX(53deg) translateX(-500px);
-      opacity: 0;
-  }
-  60%{
-      transform: translateX(0px);
-  }
-  62%{
-      transform: skewX(0deg) translateX(30px);
-  }
-  70%{
-      transform: skew(-20deg);
-      opacity: 1;
-  }
-  80%{
-      transform: skew(0deg) translate(0px);
-  }
-  90%{
-      transform: skew(-5deg);
-  }
-  100%{
-      transform: skew(0deg);
-  }
+@keyframes slideMe {
+	0% {
+		transform: skewX(53deg) translateX(-500px);
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(0);
+	}
+	62% {
+		transform: skewX(0deg) translateX(30px);
+	}
+	70% {
+		transform: skew(-20deg);
+		opacity: 1;
+	}
+	80% {
+		transform: skew(0deg) translate(0);
+	}
+	90% {
+		transform: skew(-5deg);
+	}
+	100% {
+		transform: skew(0deg);
+	}
 }
-  
-  
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.my-footer {
+	width: 100%;
+}
+
 /* Media Queries */
 
-@media (min-width: 360px) and (max-width: 767px) {
-  .flip-card {
-    background-color: transparent;
-    width: 200px;
-    height: 178px;
-    border: 3px solid #f1f1f1;
-    perspective: 1000px; 
-  }
+@media (min-width: 320px) and (max-width: 767px) {
+	.jumbotron {
+		flex-direction: column;
+	}
 
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-card-back {
-    background-color: rgb(14, 28, 158);
-    color: white;
-    transform: rotateY(180deg);
-  }
-  
-  .my-skills {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-  }
+	.cover-content {
+		position: relative;
+		bottom: 70vh;
+		width: 100%;
+	}
 
-  .my-project {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-   }
-}
-  
-@media (min-width: 768px) and (max-width: 991px) {
-  .my-project {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   }
+	.text-content {
+		position: relative;
+		top: 12vh;
+		align-self: center;
+	}
+
+	.text-content h1 {
+		display: none;
+	}
+
+	.text-content h2 {
+		display: none;
+	}
+
+	.mobile-hide {
+		display: none;
+	}
 }
