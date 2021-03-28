@@ -81,7 +81,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Get in touch</h5>
                   <div class="card-text">
-                    <form name="myemailform" action="form-to-email.php" method="POST">
+                    <form name="myemailform" action="mailto:denislafontant@gmail.com" method="POST">
                       <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Full
                           name</label>
@@ -117,16 +117,6 @@
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"></script>
   <!-- Addons script -->
-  <script src="./assets/js/main.js"></script>
-  <script language="JavaScript">
-    // Code for validating the form
-    // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-    // for details
-    var frmvalidator = new Validator("myemailform");
-    frmvalidator.addValidation("name", "req", "Please provide your name");
-    frmvalidator.addValidation("email", "req", "Please provide your email");
-    frmvalidator.addValidation("email", "email", "Please enter a valid email address");
-  </script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>AOS.init();</script>
 </body>
