@@ -210,6 +210,18 @@ body {
 	animation: fadeIn 3s;
 }
 
+.about .link-back {
+  position: relative;
+	text-align: right;
+  bottom: 3.5rem;
+}
+
+.projects .link-back {
+  position: relative;
+	text-align: right;
+  bottom: 3.5rem;
+}
+
 /*animations*/
 @keyframes slideMe {
 	0% {
