@@ -293,4 +293,12 @@ body {
 	.mobile-hide {
 		display: none;
 	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		width: 100%;
+		gap: 25px;
+	}
 }
