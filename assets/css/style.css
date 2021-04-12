@@ -293,4 +293,34 @@ body {
 	.mobile-hide {
 		display: none;
 	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		width: 100%;
+		gap: 25px;
+	}
+
+  .contact .card {
+    width: 60%;
+    height: 70vh;
+    border: black solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 8px #888888;
+  }
+
+  .contact {
+    width: 100%;
+    height: 170vh;
+    background-image: url(../img/pexels-negative-space-33999.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 993px) {
+
 }
