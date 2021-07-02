@@ -5,3 +5,8 @@
   box-sizing: border-box;
 }
 
+.jumbotron {
+  width: 100%;
+  height: 92.5vh;
+}
+
