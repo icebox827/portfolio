@@ -5,19 +5,30 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .jumbotron {
   width: 100%;
   height: 92.5vh;
+  background-image: url(../img/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
   margin-left: 25px;
 }
 
+.text {
+  color: aliceblue;
+}
+
 .social a {
-  margin: 10px;
-  color: black;
+  margin-right: 10px;
+  color: aliceblue;
 }
