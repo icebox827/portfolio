@@ -10,3 +10,14 @@
   height: 92.5vh;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.social a {
+  margin: 10px;
+  color: black;
+}
