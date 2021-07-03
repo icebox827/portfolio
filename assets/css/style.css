@@ -60,15 +60,16 @@ body {
   border-radius: 5px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  width: 100%;
-}
-
 @media (min-width: 320px) and (max-width: 767px) {
   .logo img {
-    display: none;
+    width: 100%;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .social {
+    width: 100%;
   }
 }
