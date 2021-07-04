@@ -62,7 +62,7 @@ body {
   margin-right: auto;
 }
 
-.profile button {
+.profile a {
   border-radius: 5px;
   position: relative;
   margin-left: auto;
