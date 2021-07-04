@@ -11,6 +11,7 @@
   <meta name="description" property="og:description" content="Denis Lafontant Full-Stack Web Developer and Designer">
   <meta name="og:image" content="./assets/img/logo.png" />
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png"/>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap -->
@@ -266,7 +267,37 @@
     <div class="container">
       <h2 class="d-flex justify-content-center mt-5">Contact</h2>
       <hr>
-      
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/img/logo_transparent.png" class="img-fluid rounded-start" alt="Denis Lafontant Logo">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Get in touch</h5>
+              <div class="card-text">
+                <form name="myemailform" action="mailto:denislafontant@gmail.com" method="POST">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Full
+                      name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe"
+                      required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email
+                      address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com" required>
+                  </div>
+                  <div class="col text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
