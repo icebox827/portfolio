@@ -81,6 +81,28 @@ body {
   text-align: center;
 }
 
+#project hr {
+  width: 15%;
+  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  box-shadow: 10px 5px 5px black;
+  width: 20rem;
+  height: 22rem;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-body a {
+  position: relative;
+  left: 29%;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .logo img {
     width: 100%;
