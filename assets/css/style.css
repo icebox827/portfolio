@@ -90,8 +90,8 @@ body {
 
 .card {
   box-shadow: 10px 5px 5px black;
-  width: 20rem;
-  height: 22rem;
+  width: 22rem;
+  height: 24rem;
 }
 
 .card-title {
@@ -114,5 +114,11 @@ body {
 
   .social {
     width: 100%;
+  }
+
+  .card {
+    box-shadow: 10px 5px 5px black;
+    width: 18rem;
+    height: 24rem;
   }
 }
