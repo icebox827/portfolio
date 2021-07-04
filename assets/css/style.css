@@ -66,6 +66,21 @@ body {
   margin-right: auto;
 }
 
+.carousel-item img {
+  width: 40%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item h5 {
+  text-align: center;
+}
+
+.carousel-item p {
+  text-align: center;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .logo img {
     width: 100%;
