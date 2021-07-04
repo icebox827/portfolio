@@ -117,7 +117,6 @@ body {
 }
 
 #contact .card-title {
-  text-shadow: grey;
   text-decoration-line: underline;
 }
 
@@ -140,6 +139,7 @@ body {
     height: 24rem;
     margin: 0 auto;
   }
+
   #contact .card {
     width: 60%;
   }
