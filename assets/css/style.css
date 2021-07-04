@@ -32,6 +32,11 @@ body {
   width: 100%;
 }
 
+.nav-item a {
+  font-size: larger;
+  font-weight: 800;
+}
+
 .social a {
   margin-right: 10px;
   color: black;
@@ -108,7 +113,7 @@ body {
 }
 
 #contact .card {
-  max-width: 540px;
+  width: 50%;
 }
 
 #contact .card-title {
