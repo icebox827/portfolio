@@ -99,6 +99,7 @@ body {
   box-shadow: 2px  2px 10px grey;
   width: 22rem;
   height: 24rem;
+  margin: 0 auto;
 }
 
 .card-title {
@@ -124,20 +125,15 @@ body {
   }
 
   .card {
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 2px  2px 10px grey;
     width: 18rem;
     height: 24rem;
   }
 }
 
-#contact .card {
-  width: 100%;
-}
-
-
-@media (min-width: 768px) and (max-width: 994px) {
+@media (min-width: 768px) and (max-width: 990px) {
   .card {
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 2px  2px 10px grey;
     width: 20rem;
     height: 24rem;
   }
