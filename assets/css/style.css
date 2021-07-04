@@ -122,3 +122,12 @@ body {
     height: 24rem;
   }
 }
+
+
+@media (min-width: 768px) and (max-width: 994px) {
+  .card {
+    box-shadow: 10px 5px 5px black;
+    width: 20rem;
+    height: 24rem;
+  }
+}
