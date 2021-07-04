@@ -140,6 +140,9 @@ body {
     height: 24rem;
     margin: 0 auto;
   }
+  #contact .card {
+    width: 60%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
