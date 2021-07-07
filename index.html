@@ -276,13 +276,14 @@
             <div class="card-body">
               <h5 class="card-title text-center">Get in touch</h5>
               <div class="card-text">
-                <form name="myemailform" action="mailto:denislafontant@gmail.com" method="POST">
-                  <div class="col text-center">
-                    <button type="submit" class="btn btn-dark">Hire me</button>
-                  </div>
-                  <div class="social text-center mt-5">
-                    <a href="" target="_blank" rel="noopener"></a>
-                                      </div>
+                <form action="https://formsubmit.co/denislafontant@gmail.com" method="POST">
+                  <label for="name">Full name :</label>
+                  <input type="text" name="name" required><br>
+                  <label for="email">Email :</label>
+                  <input type="email" name="email" required><br>
+                  <label for="content">Content :</label>
+                  <input type="textarea" name="content" required><br>
+                  <button type="submit" class="btn btn-dark">Send</button>
                 </form>
               </div>
             </div>
