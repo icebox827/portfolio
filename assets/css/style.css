@@ -124,6 +124,11 @@ body {
   background-size: cover;
 }
 
+#contact h2 {
+  margin-top: 25px;
+  padding-top: 10px;
+}
+
 #contact .card {
   width: 50%;
 }
