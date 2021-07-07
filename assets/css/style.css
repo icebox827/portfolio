@@ -126,7 +126,7 @@ footer {
 
 .footer-content h5 {
   margin-top: 10px;
-  color: white
+  color: white;
 }
 
 .social-footer {
@@ -137,8 +137,6 @@ footer {
 .social-footer a {
   color: white;
 }
-
-
 
 @media (min-width: 320px) and (max-width: 767px) {
   .logo img {
