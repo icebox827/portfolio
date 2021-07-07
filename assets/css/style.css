@@ -120,6 +120,26 @@ body {
   text-decoration-line: underline;
 }
 
+footer {
+  background-color: rgb(17, 17, 17);
+}
+
+.footer-content h5 {
+  margin-top: 10px;
+  color: white
+}
+
+.social-footer {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.social-footer a {
+  color: white;
+}
+
+
+
 @media (min-width: 320px) and (max-width: 767px) {
   .logo img {
     width: 100%;
