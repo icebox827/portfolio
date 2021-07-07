@@ -12,7 +12,7 @@ body {
 .jumbotron {
   width: 100%;
   min-height: 100vh;
-  background-image: url(../img/james-harrison-vpOeXr5wmR4-unsplash..png);
+  background-image: url(../img/james-harrison-vpOeXr5wmR4-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,6 +26,7 @@ body {
 
 .text {
   width: 100%;
+  color: white;
 }
 
 .social {
@@ -39,7 +40,7 @@ body {
 
 .social a {
   margin-right: 10px;
-  color: black;
+  color: white;
 }
 
 .logo img {
@@ -87,6 +88,11 @@ body {
 
 .carousel-item p {
   text-align: center;
+}
+
+.divider {
+  width: 100%;
+  border: 5px solid black;
 }
 
 #project {
