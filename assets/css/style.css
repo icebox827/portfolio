@@ -21,7 +21,11 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  margin-left: 25px;
+  border: 1px solid grey;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(250, 235, 215, 0.473);
 }
 
 .text {
