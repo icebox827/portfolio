@@ -1,337 +1,360 @@
 <!DOCTYPE html>
-<html lang="en" xml:lang="en">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Denis Lafontant, denislafontant@gmail.com">
+  <meta name="keywords"
+    content="Portfolio, Web Design, Full-stack Developer, Front-end Developer, Backend Developer, Developer, WordPress Developer">
+  <meta name="description" property="og:description" content="Denis Lafontant Full-Stack Web Developer and Designer">
+  <meta name="og:image" content="./assets/img/logo.png" />
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png"/>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Fonts -->
-  <link rel="stylesheet" href="https://use.typekit.net/tyg1nlb.css">
-  <!-- Bootstrap CSS files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <!-- CSS only -->
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <title>Denis Lafontant - Full-Stack Web Developer</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P3LSC7NHCY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-P3LSC7NHCY');
+  </script>
+  <title>Denis Lafontant - Full-stack Web Developer</title>
 </head>
+
 <body>
-  <header>
-    <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand pl-2" href="index.html"><img src="./assets/img/logo_transparent_1.png" alt="logo" class="logo">Full-Stack Web Developer</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="skills.html">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Home -->
+  <section id="home">
+    <div class="jumbotron">
+      <div class="content" data-aos="flip-up" data-aos-duration="2000">
+        <div class="logo d-flex justify-content-center img-fluid">
+          <img src="./assets/img/logo_transparent.png" alt="logo">
+        </div>
+        <div class="text text-center">
+          <h1>Hi! I'm a Full-stack Web Developer</h1>
+          <h2>I build from landing page to API</h2>
+        </div>
+        <div class="social text-center">
+          <a href="https://www.linkedin.com/in/denis-lafontant/" rel="noopener noreferrer" target="_blank"><i class="fa fa-linkedin-square fa-3x"
+              aria-hidden="true"></i></a>
+          <a href="https://github.com/icebox827/" rel="noopener noreferrer" target="_blank"><i class="fa fa-github fa-3x"
+              aria-hidden="true"></i></a>
+          <a href="https://angel.co/u/denis-lafontant-1" rel="noopener noreferrer" target="_blank"><i class="fa fa-angellist fa-3x"
+              aria-hidden="true"></i></a>
+          <a href="https://twitter.com/heracles2k5" rel="noopener noreferrer" target="_blank"><i class="fa fa-twitter-square fa-3x"
+              aria-hidden="true"></i></a>
+          <a href="https://denislafontant.medium.com/" rel="noopener noreferrer" target="_blank"><i class="fa fa-medium fa-3x"
+              aria-hidden="true"></i></a>
         </div>
       </div>
-    </nav>
-  </header>
-  <main>
-    <!-- Home Section -->
-    <section id="home">
-      <div class="jumbotron d-flex justify-content-between">
-        <div class="text-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-          <h1>Hi! I'm a Web Developer & Designer</h1>
-          <h2>Full-Stack Developer | Wordpress | Moodle</h2>
-          <div class="social">
-            <a href="https://github.com/icebox827" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/denis-lafontant/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/heracles2k5" target="_blank"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
-            <a href="https://medium.com/@icebox827" target="_blank"><i class="fa fa-medium fa-4x" aria-hidden="true"></i></a>
-          </div>
-        </div>
-        <div class="cover-content" data-aos="fade-left">
-          <img src="./assets/img/logo_transparent.png" alt="logo-cover" class="img-fluid">
-        </div>
-      </div>
-    </section>
-     <!-- About Section Section -->
-     <section id="about">
-      <div class="container">
-        <div class="row about mt-3">
-          <h1>About</h1>
-          <hr>
-          <div class="col-sm-12 col-md-12 col-lg-12">
-            <img src="./assets/img/Denis_Lafontant.JPG" alt="Denis Lafontant" class="img-fluid" data-aos="zoom-in-up">
-            <div class="accordion mt-3" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <strong>Who am I</strong> 
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                      <p>I am Denis Lafontant an experienced Full-Stack Web Designer and Developer.
-                        After 15 years working for the Haitian National Police of Haiti where I inhabited multiple roles,
-                        I have dedicated myself to computer sciences especially web development, enterprise solutions, and
-                        networking</p>
-                      <p class="mobile-hide">I decided to leave to pursue my passion (coding) and learn every aspect needed to
-                        be a great programmer. I attended Microverse, an Online Coding School,
-                        which have me mastered all the hard skills (HTML, CSS, Ruby, SQL, Ruby on Rails,
-                        React & Redux, Javascript) and the soft skills (Pair Programming, Mentoring, Communication, Remote
-                        Working, Conflict Resolution, Team Collaboration).</p>
-                      <p class="mobile-hide">Now I can implement business solutions by transforming the needs and problems into
-                        code, giving valuable advice to help the business grow with technology,
-                        I also do digital marketing to promote and grow your business on social networks.</p>
-                      <p class="mobile-hide">All of the projects that I work on are guided by a strong sense of meticulousness
-                        and precision both design and development.
-                        I create meaningful and unique digital experience for my client's users.
-                      </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <strong>Resume</strong> 
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <h6>MICROVERSE, Remote</h6>
-                    <h6><b>Mentor (Volunteer), </b>January 2021 –</h6>
-                    <ul>
-                      <li>Mentored junior web developers, providing technical support through code reviews.</li>
-                      <li>Proposed improvements to code organization to improve code quality and overall performance.</li>
-                      <li>Provided advice and tips on how to maintain motivation to maintain longevity in the program.</li>
-                    </ul>
-                    <h6>ACADÉMIE NATIONALE DE POLICE, Pétion-Ville, Haïti</h6>
-                    <h6><b>Computer Teacher,  </b>April 2013 –</h6>
-                    <ul>
-                      <li>Created a MOOC platform with moodle for Online learning.</li>
-                      <li>Taught how to create content for online learning to fellow teachers.</li>
-                      <li>Got students ready to use a computer for their daily tasks.</li>
-                    </ul>
-                    <h6>POLICE NATIONALE D’HAITI, Clercine, Haïti</h6>
-                    <h6><b>Analyst Developer Senior I, </b>January 2006 – January 2021</h6>
-                    <ul>
-                      <li>Built the Haitian National Police website.</li>
-                      <li>Built the National Police Academy website.</li>
-                      <li>Setup and Managed a computer network with IP phone, Web server, File server, Print server, <br> and data storage local and cloud for the National Police Academy.</li>
-                    </ul>
-                    <h6>FREELANCE ACTIVITIES, Port-au-Prince, Haïti</h6>
-                    <h6><b>Freelancer, </b>August 2020 –</h6>
-                    <ul>
-                      <li>Built a website for an online local newspaper using WordPress.</li>
-                      <li>Did digital marketing for a local restaurant</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <strong>Testimonials</strong> 
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item testimonial active">
-                          <img src="./assets/img/Atef.jpg" class="d-block w-30 img-fluid" alt="Mohammed Atef">
-                          <h5><b><i>Mohammed Atef</i></b></h5>
-                          <p><i>"I've worked with Denis for a couple of weeks in Microverse. We were partners and in the stand-up team. <br>
-                            Denis showed a great ability to learn and adapt to difficult situations. He has a good character that you can work with from the first day without any boundaries. <br> In addition, he was a helpful and collaborative partner"</i></p>
-                        </div>
-                        <div class="carousel-item testimonial">
-                          <img src="./assets/img/Widz.jpg" class="d-block w-30 img-fluid" alt="Widzmarc Phelle">
-                          <h5><b><i>Widzmarc Phelle Jean Nesly</i></b></h5>
-                          <p><i>"Denis is a good collaborator, listens to suggestions, and opens up to new ideas. <br> He is patient when it comes to explaining why he's doing something a specific way. <br> I know him at microverse, and we collaborate on a project together."</i></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Projects -->
-    <section id="project">
-      <div class="projects mt-3">
-        <h1>Projects</h1>
-        <hr>
-        <div class="container">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row d-flex justify-content-around" id="portfolio">
-                  <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="card">
-                      <img src="./assets/img/telegram_bot.png" class="card-img-top" alt="Telegram News Bot">
-                      <div class="card-body">
-                        <h5 class="card-title">Telegram News Bot</h5>
-                        <p class="card-text">A Telegram Bot built with Ruby, Sqlite3, and Heroku. The bot randomly displays news from online newspapers, inspirational quotes, and motivational quotes</p>
-                        <a href="https://t.me/Lafimen_bot" target="_blank"  class="btn btn-primary">View Project</a>
-                        <a href="https://github.com/icebox827/telegram-bot" target="_blank" class="btn btn-primary">View Repo</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="card">
-                      <img src="./assets/img/haitian_national_police.png" class="card-img-top" alt="Haitian National Police">
-                      <div class="card-body">
-                        <h5 class="card-title">Haitian National Police</h5>
-                        <p class="card-text">Haiti law enforcement institution Website built with WordPress, Elementor. This website as a built-in blog</p>
-                        <a href="https://pnh.ht/" target="_blank"  class="btn btn-primary">View Project</a>
-                        <a href="https://github.com/icebox827/hnpweb" target="_blank" class="btn btn-primary">View Repo</a>
-                      </div>
-                    </div>
-                  </div>  
-                  <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="card">
-                      <img src="./assets/img/national_police_academy.png" class="card-img-top" alt="National Police Academy">
-                      <div class="card-body">
-                        <h5 class="card-title">National Police Academy</h5>
-                        <p class="card-text">Haitian Police training facility website built with WordPress, Elementor. This website as a built-in blog</p>
-                        <a href="https://anp.pnh.ht/" target="_blank" class="btn btn-primary">View Project</a>
-                        <a href="https://github.com/icebox827/anpweb" target="_blank" class="btn btn-primary">View Repo</a>
-                      </div>
-                    </div>
-                  </div>  
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row d-flex justify-content-around" id="portfolio">
-                  <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="card">
-                      <img src="./assets/img/concert_page.png" class="card-img-top" alt="Event Production">
-                      <div class="card-body">
-                        <h5 class="card-title">Event Production</h5>
-                        <p class="card-text">Microverse Capstone Project. A website where a user can buy a ticket to attend different scheduled events. Built with HTML5, CSS3, and Bootstrap</p>
-                        <a href="https://icebox827.github.io/concert-project-capstone/" target="_blank"  class="btn btn-primary">View Project</a>
-                        <a href="https://github.com/icebox827/concert-project-capstone" target="_blank" class="btn btn-primary">View Repo</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="card">
-                      <img src="./assets/img/raven.png" class="card-img-top" alt="Raven Social Media Website">
-                      <div class="card-body">
-                        <h5 class="card-title">Raven Social Media Website</h5>
-                        <p class="card-text">This project is a social media website, built with Ruby on Rails and PostgreSQL, where a user can send friend requests, like or dislike comments</p>
-                        <a href="https://powerful-peak-59867.herokuapp.com/users/sign_in" target="_blank" class="btn btn-primary">View Project</a>
-                        <a href="https://github.com/icebox827/movie_guru" target="_blank" class="btn btn-primary">View Repo</a>
-                      </div>
-                    </div>
-                  </div>  
-                  <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="card">
-                      <img src="./assets/img/sysgef.png" class="card-img-top" alt="SYSGEF-ANP">
-                      <div class="card-body">
-                        <h5 class="card-title">SYSGEF-ANP</h5>
-                        <p class="card-text">MOOC Platform for the National Police Academy built with Moodle. In this platform, Police officers can attend online classes, take quizzes and Obtain a certificate</p>
-                        <a href="https://sysgef.pnh.ht/login/index.php" target="_blank" class="btn btn-primary">View Project</a>
-                        <a href="https://github.com/icebox827/SYSGEF" target="_blank" class="btn btn-primary">View Repo</a>
-                      </div>
-                    </div>
-                  </div>  
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row d-flex justify-content-around" id="portfolio">
-                  <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="card">
-                      <img src="./assets/img/library.png" class="card-img-top" alt="Library of Alexandria">
-                      <div class="card-body">
-                        <h5 class="card-title">Library of Alexandria</h5>
-                        <p class="card-text">A personal library app created with, CSS, and JavaScript where a user can add, remove and set book status to read or not read.</p>
-                        <a href="https://icebox827.github.io/library/" target="_blank" class="btn btn-primary">View Project</a>
-                        <a href="https://github.com/icebox827/library" target="_blank" class="btn btn-primary">View Repo</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="card">
-                      <img src="./assets/img/newsweek.png" class="card-img-top" alt="Raven Social Media Website">
-                      <div class="card-body">
-                        <h5 class="card-title">The NewsWeek</h5>
-                        <p class="card-text">This project is a replicate of the NewsWeek online newspaper website. Built with HTML5, and CSS3 only.</p>
-                        <a href="https://icebox827.github.io/Newsweek-copy/" target="_blank" class="btn btn-primary">View Project</a>
-                        <a href="https://github.com/icebox827/Newsweek-copy" target="_blank" class="btn btn-primary">View Repo</a>
-                      </div>
-                    </div>
-                  </div>  
-                  <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="card">
-                      <img src="./assets/img/movie_guru.png" class="card-img-top" alt="Movie Guru">
-                      <div class="card-body">
-                        <h5 class="card-title">Movie Guru</h5>
-                        <p class="card-text">A movie blog where a user can create an article for a movie and vote for the article and other articles. This blog is built with Ruby on Rails and PostgreSQL</p>
-                        <a href="https://shielded-depths-40245.herokuapp.com/articles" target="_blank" class="btn btn-primary">View Project</a>
-                        <a href="https://github.com/icebox827/movie_guru" target="_blank" class="btn btn-primary">View Repo</a>
-                      </div>
-                    </div>
-                  </div>  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="container-fluid my-footer">
+    </div>
+  </section>
+  <!-- About -->
+  <section id="about">
+    <h1 class="d-flex justify-content-center mt-4">About me</h1>
+    <hr>
+    <div class="container">
       <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <img class="img-fluid logo " src="./assets/img/logo_transparent_1.png" alt="logo">
-            <a class="navbar-brand">2021 &copy; All rights reserved</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <ul class="nav collapse navbar-collapse justify-content-end" id="navbarNav">
-              <li class="nav-item">
-                <a class="nav-link active" href="https://github.com/icebox827" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/denis-lafontant/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></href=></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com/heracles2k5" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://medium.com/@icebox827" target="_blank"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
-              </li>
-            </ul>
+        <div class="col-md-4 col-sm-12 col-lg-4">
+          <div class="profile d-flex justify-content-center flex-column mt-2" data-aos="flip-down" data-aos-duration="1500">
+            <img src="./assets/img/Denis_Lafontant.JPG" alt="Denis Lafontant">
+            <a href="https://drive.google.com/file/d/188V2fEP6BhAv_fFW5fPiL616VHLHiaz7/view?usp=sharing" rel="noopener noreferrer" target="_blank" class="btn btn-dark resume"><i class="fa fa-download" aria-hidden="true"></i>
+              Resume</a>
           </div>
-        </nav>
+        </div>
+        <div class="col-md-4 col-sm-12 col-lg-4">
+          <div class="skills mt-2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h2 class="d-flex justify-content-center">Skills</h2>
+            <h4>Front-end</h4>
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> HTML5, CSS3, JavaScript, Bootstrap, React, Redux</p>
+            <h4>Backend</h4>
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Ruby, Ruby on Rails</p>
+            <h4>Databases</h4>
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> SQL, MySQL, PostgreSQL</p>
+            <h4>Tools</h4>
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Git, Git-Flow, RSpec, Jest, Linters, TDD, Chrome Dev Tools</p>
+            <h4>Services</h4>
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> AWS, Heroku, Netlify, VPS, WordPress, Moodle, Joomla</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-lg-4">
+          <div class="testimonials mt-2">
+            <h2 class="d-flex justify-content-center">Testimonials</h2>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/img/Atef.jpg" class="d-block img-fluid" alt="Mohammed Atef">
+                  <h5><b><i>Mohammed Atef</i></b></h5>
+                  <p><i>"I've worked with Denis for a couple of weeks in Microverse. We were partners and in the
+                      stand-up team. <br>
+                      Denis showed a great ability to learn and adapt to difficult situations. He has a good character
+                      that you can work with from the first day without any boundaries. <br> In addition, he was a
+                      helpful and collaborative partner"</i></p>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/Widz.jpg" class="d-block w-30 img-fluid" alt="Widzmarc Phelle">
+                  <h5><b><i>Widzmarc Phelle Jean Nesly</i></b></h5>
+                  <p><i>"Denis is a good collaborator, listens to suggestions, and opens up to new ideas. <br> He is
+                      patient when it comes to explaining why he's doing something a specific way. <br> I know him at
+                      microverse, and we collaborate on a project together."</i></p>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/Luis.jpg" class="d-block w-30 img-fluid" alt="Widzmarc Phelle">
+                  <h5><b><i>Luis Vinicius Marques Santos</i></b></h5>
+                  <p><i>"I had the opportunity to work with Denis for one week, but it really felt like it was more.
+                      <br> It's clear by his actions that he has an incredible eagerness to improve not only his skills
+                      but himself. I really felt that a strong bond was made in a such short time and I know that I can
+                      really trust him for anything. <br> And I can't forget about mentioning the speed and energy that
+                      he puts in when learning something new or working on a project."</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="divider">
+  <!-- Project -->
+  <section id="project">
+    <h1 class="d-flex justify-content-center mt-5">Projects</h1>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <div class="card mt-4" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+            <img src="./assets/img/stock.png" class="card-img-top" alt="stock-guru">
+            <div class="card-body text-center">
+              <h5 class="card-title">Stock-Guru</h5>
+              <p class="card-text"> This is a catalogue of statistics where you can find stock market info. This app is
+                built with React/Redux and Financial Modeling Prep API to retrieve the data.</p>
+              <a href="https://stock-guru.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-dark ">Live preview</a>
+              <a href="https://github.com/icebox827/stock-guru" rel="noopener noreferrer" target="_blank" class="btn btn-dark">View code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <div class="card mt-4" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+            <img src="./assets/img/damina_rush.png" class="card-img-top" alt="Damian Rush">
+            <div class="card-body text-center">
+              <h5 class="card-title">Damian Rush</h5>
+              <p class="card-text">This is a platform game built with Phaser.js (a JavaScript library for game
+                development) and connect to leaderboard API to save and display score.</p>
+              <a href="https://jolly-jang-ba35f9.netlify.app/" rel="noopener noreferrer" target="_blank" class="btn btn-dark ">Live preview</a>
+              <a href="https://github.com/icebox827/damian-rush" rel="noopener noreferrer" target="_blank" class="btn btn-dark">View code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <div class="card mt-4" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+            <img src="./assets/img/movie_guru.png" class="card-img-top" alt="Movie Guru">
+            <div class="card-body text-center">
+              <h5 class="card-title">Movie Guru</h5>
+              <p class="card-text">The Movie Guru is a blog built With Ruby on Rails, where a user can create and vote
+                for articles about a movie. The most voted article is displayed in the top rank section.</p>
+              <a href="https://shielded-depths-40245.herokuapp.com/articles" rel="noopener noreferrer" target="_blank"
+                class="btn btn-dark ">Live preview</a>
+              <a href="https://github.com/icebox827/movie_guru" rel="noopener noreferrer" target="_blank" class="btn btn-dark">View code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second row -->
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <div class="card mt-4" data-aos="fade-up"
+          data-aos-duration="3000">
+            <img src="./assets/img/weather_app.png" class="card-img-top" alt="Weather App">
+            <div class="card-body text-center">
+              <h5 class="card-title">Weather app</h5>
+              <p class="card-text">A weather application built with JavaScript and open weather API. The user inputs the
+                name of the city to see the weather condition for that city.</p>
+              <a href="https://frosty-tesla-3152df.netlify.app/" rel="noopener noreferrer" target="_blank" class="btn btn-dark ">Live preview</a>
+              <a href="https://github.com/icebox827/weather-app" rel="noopener noreferrer" target="_blank" class="btn btn-dark">View code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <div class="card mt-4" data-aos="fade-up"
+          data-aos-duration="3000">
+            <img src="./assets/img/telegram.png" class="card-img-top" alt="Telegram news">
+            <div class="card-body text-center">
+              <h5 class="card-title">Telegram News</h5>
+              <p class="card-text">A Telegram Bot built with Ruby & Sqlite3 that randomly displays news from online
+                newspapers, and motivational quotes.</p>
+              <a href="https://t.me/Lafimen_bot" rel="noopener noreferrer" target="_blank" class="btn btn-dark ">Live preview</a>
+              <a href="https://github.com/icebox827/telegram-bot" rel="noopener noreferrer" target="_blank" class="btn btn-dark">View code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <div class="card mt-4" data-aos="fade-up"
+          data-aos-duration="3000">
+            <img src="./assets/img/raven.png" class="card-img-top" alt="Raven">
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">Raven</h5>
+              <p class="card-text">This project is a social media website, built with Ruby on Rails and PostgreSQL,
+                where a user can send friend requests, like or dislike comments.</p>
+              <a href="https://powerful-peak-59867.herokuapp.com/users/sign_in" rel="noopener noreferrer" target="_blank"
+                class="btn btn-dark ">Live preview</a>
+              <a href="https://github.com/icebox827/raven" rel="noopener noreferrer" target="_blank" class="btn btn-dark">View code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Third row -->
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <div class="card mt-4" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0">
+            <img src="./assets/img/sysgef.png" class="card-img-top" alt="SYSGEF">
+            <div class="card-body text-center">
+              <h5 class="card-title">SYSGEF-ANP</h5>
+              <p class="card-text">MOOC Platform for the National Police Academy built with Moodle. In this platform,
+                Police officers can attend online classes, take quizzes and obtain a certificate.</p>
+              <a href="https://sysgef.pnh.ht" rel="noopener noreferrer" target="_blank" class="btn btn-dark ">Live preview</a>
+              <a href="https://github.com/icebox827/SYSGEF" rel="noopener noreferrer" target="_blank" class="btn btn-dark">View code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <div class="card mt-4" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0">
+            <img src="./assets/img/national_police_academy.png" class="card-img-top" alt="Academie Nationale de Police">
+            <div class="card-body text-center">
+              <h5 class="card-title">National Police Academy</h5>
+              <p class="card-text">Haitian Police training facility website built with WordPress and Elementor. This
+                website as a built-in blog.</p>
+              <a href="https://anp.pnh.ht/" rel="noopener noreferrer" target="_blank" class="btn btn-dark ">Live preview</a>
+              <a href="https://github.com/icebox827/anpweb" rel="noopener noreferrer" target="_blank" class="btn btn-dark">View code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <div class="card mt-4" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0">
+            <img src="./assets/img/haitian_national_police.png" class="card-img-top" alt="Police Nationale d'Haiti">
+            <div class="card-body text-center">
+              <h5 class="card-title">National Police of Haiti</h5>
+              <p class="card-text">Haiti law enforcement institution Website built with WordPress, Elementor. This
+                website as a built-in blog.</p>
+              <a href="https://pnh.ht/" rel="noopener noreferrer" target="_blank" class="btn btn-dark ">Live preview</a>
+              <a href="https://github.com/icebox827/hnpweb" rel="noopener noreferrer" target="_blank" class="btn btn-dark">View code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contactc-->
+  <section id="contact">
+    <div class="container">
+      <h2 class="d-flex justify-content-center">Contact</h2>
+      <hr>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/img/logo_transparent.png" class="img-fluid rounded-start" alt="Denis Lafontant Logo">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="card-text">
+                <form action="https://formsubmit.co/denislafontant@gmail.com" method="POST">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Full name</label>
+                    <input type="text" class="form-control" name="fullName" id="name" placeholder="Full name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Textarea" class="form-label">Content</label>
+                    <textarea class="form-control" name="content" id="Textarea" rows="3"></textarea>
+                  </div>
+                  <input type="hidden" name="_next" value="https://denislafontant.com/pages/thanks.html">
+                  <input type="hidden" name="_subject" value="You've got mail!">
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-dark">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="container d-flex justify-content-center">
+      <div class="footer-content">
+        <h5>Built with <i class="fa fa-heart" aria-hidden="true"></i> by : <em>Denis Lafontant</em></h5>
+      </div>
+      <div class="social-footer">
+        <a href="https://www.linkedin.com/in/denis-lafontant/" rel="noopener noreferrer" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/icebox827/" rel="noopener noreferrer" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://angel.co/u/denis-lafontant-1" rel="noopener noreferrer" target="_blank"><i class="fa fa-angellist" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/heracles2k5" rel="noopener noreferrer" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://denislafontant.medium.com/" rel="noopener noreferrer" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
       </div>
     </div>
   </footer>
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  <!-- Addons script -->
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
