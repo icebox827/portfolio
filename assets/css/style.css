@@ -1,284 +1,207 @@
-/* Set globals */
+/* Global */
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	overflow-x: hidden;
-}
-
-/* Home section */
-.logo {
-	width: 80px;
-	height: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .jumbotron {
-	width: 100%;
-	height: 100vh;
-	background-image: url(../img/dark-grunge-style-scratched-metal-surface_1048-12951.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.text-content {
-	width: 50%;
-	margin-top: 10rem;
-	padding-left: 15px;
-	z-index: 9999;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 1px solid grey;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(250, 235, 215, 0.473);
 }
 
-.text-content h1 {
-	color: white;
-}
-
-.text-content h2 {
-	color: white;
-}
-
-.cover-content {
-	width: 50%;
-	margin-top: 1rem;
-	z-index: 9999;
-}
-
-.cover-content img {
-	width: 100%;
-	height: 80vh;
-	object-fit: contain;
-}
-
-/* About section */
-
-.about {
-	width: 100%;
-}
-
-.about h1 {
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.about hr {
-	width: 15%;
-	border: black solid 2px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.about img {
-	display: block;
-	width: 40vh;
-	height: 40vh;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.carousel-item .testimonial img {
-	display: block;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.carousel-item h5 {
-	text-align: center;
-}
-
-.carousel-item p {
-	text-align: center;
-}
-
-/* Skills Section */
-.skills {
-	width: 100%;
-	background-image: url(../img/thick-smoke-on-black-background.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 5rem;
-}
-
-.skills h1 {
-	color: white;
-	text-align: center;
-	text-transform: uppercase;
-	padding-top: 3rem;
-}
-
-.skills hr {
-	width: 15%;
-	border: white solid 2px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.card {
-	width: 18rem;
-	height: 20rem;
-}
-
-.card img {
-	width: 100%;
-	height: 40vh;
-	padding-top: 15px;
-}
-
-.grid-container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	width: 100%;
-	gap: 25px;
-}
-
-.projects {
-	width: 100%;
-	background-image: url(../img/screen-0.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 5rem;
-}
-
-.projects h1 {
-	text-transform: uppercase;
-	text-align: center;
-	color: white;
-	padding-top: 2rem;
-	z-index: 9999;
-}
-
-.projects hr {
-	width: 15%;
-	border: white solid 2px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.projects .card {
-	width: 100%;
-	height: 65vh;
-}
-
-#portfolio {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	animation: slideMe 1.5s ease-in-out;
-}
-
-/* Center align the text */
-#portfolio {
-	text-align: center !important;
-}
-
-.contact {
-	width: 100%;
-	height: 89vh;
-	background-image: url(../img/pexels-negative-space-33999.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-.contact h1 {
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.contact hr {
-	width: 15%;
-	border: black solid 2px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.contact .card {
-	width: 60%;
-	height: 60vh;
-	border: black solid 2px;
-	margin-left: auto;
-	margin-right: auto;
-	box-shadow: 10px 10px 8px #888888;
+.text {
+  width: 100%;
+  color: white;
 }
 
 .social {
-	margin-left: 15px;
+  width: 100%;
 }
 
-.social a:hover {
-	animation: fadeIn 3s;
+.nav-item a {
+  font-size: larger;
+  font-weight: 800;
 }
 
-/*animations*/
-@keyframes slideMe {
-	0% {
-		transform: skewX(53deg) translateX(-500px);
-		opacity: 0;
-	}
-	60% {
-		transform: translateX(0);
-	}
-	62% {
-		transform: skewX(0deg) translateX(30px);
-	}
-	70% {
-		transform: skew(-20deg);
-		opacity: 1;
-	}
-	80% {
-		transform: skew(0deg) translate(0);
-	}
-	90% {
-		transform: skew(-5deg);
-	}
-	100% {
-		transform: skew(0deg);
-	}
+.social a {
+  margin-right: 10px;
+  color: white;
 }
 
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
+.logo img {
+  width: 500px;
+  height: 420px;
 }
 
-.my-footer {
-	width: 100%;
+#about {
+  width: 100%;
+  min-height: 100vh;
 }
 
-/* Media Queries */
+#about hr {
+  width: 15%;
+  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile img {
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile a {
+  border-radius: 5px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item img {
+  width: 40%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item h5 {
+  text-align: center;
+}
+
+.carousel-item p {
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  border: 5px solid black;
+}
+
+#project {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#project hr {
+  width: 15%;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact hr {
+  width: 15%;
+  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  box-shadow: 2px  2px 10px grey;
+  width: 22rem;
+  height: 24rem;
+  margin: 0 auto;
+}
+
+#contact {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/pexels-negative-space-33999.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact h2 {
+  margin-top: 25px;
+  padding-top: 10px;
+}
+
+#contact .card {
+  width: 50%;
+}
+
+footer {
+  background-color: rgb(17, 17, 17);
+}
+
+.footer-content h5 {
+  margin-top: 10px;
+  color: white;
+}
+
+.social-footer {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.social-footer a {
+  color: white;
+}
+
+.message {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/wilhelm-gunkel-AKQlYooS72w-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
-	.jumbotron {
-		flex-direction: column;
-	}
+  .logo img {
+    width: 100%;
+  }
 
-	.cover-content {
-		position: relative;
-		bottom: 70vh;
-		width: 100%;
-	}
+  .text {
+    width: 100%;
+  }
 
-	.text-content {
-		position: relative;
-		top: 12vh;
-		align-self: center;
-	}
+  .social {
+    width: 100%;
+  }
 
-	.text-content h1 {
-		display: none;
-	}
+  .card {
+    box-shadow: 2px  2px 10px grey;
+    width: 18rem;
+    height: 24rem;
+    margin: 0 auto;
+  }
 
-	.text-content h2 {
-		display: none;
-	}
+  #contact .card {
+    width: 100%;
+    height: 100%;
+  }
+}
 
-	.mobile-hide {
-		display: none;
-	}
+@media (min-width: 768px) and (max-width: 990px) {
+  .card {
+    box-shadow: 2px  2px 10px grey;
+    width: 20rem;
+    height: 24rem;
+    margin: 0 auto;
+  }
 }
