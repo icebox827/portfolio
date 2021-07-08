@@ -165,6 +165,10 @@ footer {
 .message {
   width: 100%;
   min-height: 100vh;
+  background-image: url(../img/wilhelm-gunkel-AKQlYooS72w-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
