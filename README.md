@@ -4,8 +4,8 @@ The portfolio of Denis Lafontant
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![app_screenshot.PNG](https://github.com/icebox827/Newsweek-copy/blob/homepage/app-screenshot.png?raw=true)
-![app_screenshot1.PNG](https://github.com/icebox827/Newsweek-copy/blob/homepage/app-screenshot1.png?raw=true)
+![screenshot.PNG](https://github.com/icebox827/portfolio/blob/feature_portfolio/assets/img/screenshot.png?raw=true)
+![screenshot_1.PNG](https://github.com/icebox827/portfolio/blob/feature_portfolio/assets/img/screenshot_1.png?raw=true)
 
 
 ## Built With
