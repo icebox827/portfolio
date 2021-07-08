@@ -162,6 +162,11 @@ footer {
   color: white;
 }
 
+.message {
+  width: 100%;
+  min-height: 100vh;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .logo img {
     width: 100%;
