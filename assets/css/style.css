@@ -21,6 +21,7 @@ body {
 .content {
   display: flex;
   flex-direction: column;
+  align-content: center;
   border: 1px solid grey;
   width: 50%;
   margin-left: auto;
