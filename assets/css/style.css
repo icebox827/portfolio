@@ -31,7 +31,6 @@ body {
 
 .text {
   width: 100%;
-  color: white;
 }
 
 .social {
@@ -45,7 +44,7 @@ body {
 
 .social a {
   margin-right: 10px;
-  color: white;
+  color: rgb(31, 29, 29);
 }
 
 .logo img {
