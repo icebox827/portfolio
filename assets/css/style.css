@@ -20,13 +20,16 @@ body {
 
 .content {
   display: flex;
+  position: relative;
+  top: 5rem;
   flex-direction: column;
-  align-content: center;
-  border: 1px solid grey;
-  width: 50%;
+  border: 1px solid rgba(250, 235, 215, 0.473);;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(250, 235, 215, 0.473);
+  background-color: rgba( 255, 255, 255, 0.65 );
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
 .text {
@@ -176,7 +179,7 @@ footer {
   }
 
   .text {
-    width: 100%;
+   display: none;
   }
 
   .social {
@@ -203,4 +206,8 @@ footer {
     height: 24rem;
     margin: 0 auto;
   }
+
+  .text {
+    display: none;
+   }
 }
