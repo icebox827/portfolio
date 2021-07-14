@@ -9,6 +9,10 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.nav-link:hover {
+  background-color: rgba(198, 220, 250, 0.473);
+}
+
 .jumbotron {
   width: 100%;
   min-height: 100vh;
@@ -23,7 +27,7 @@ body {
   position: relative;
   top: 5rem;
   flex-direction: column;
-  border: 1px solid rgba(250, 235, 215, 0.473);;
+  border: 1px solid rgba(250, 235, 215, 0.473);
   width: 60%;
   margin-left: auto;
   margin-right: auto;
