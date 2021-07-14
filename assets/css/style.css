@@ -128,6 +128,11 @@ body {
   width: 22rem;
   height: 24rem;
   margin: 0 auto;
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.5);
 }
 
 #contact {
