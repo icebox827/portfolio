@@ -180,6 +180,13 @@ footer {
   background-size: cover;
 }
 
+.hire {
+  position: relative;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .logo img {
     width: 100%;
