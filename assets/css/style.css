@@ -187,17 +187,25 @@ footer {
   margin-left: auto;
 }
 
+.divider-img {
+  display: flex;
+  justify-content: center;
+}
+
 .divider-img img {
-  width: 30%;
+  width: 40%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 20px;
 }
 
 .pitch {
-  margin-top: 15px;
+  margin-top: 10px;
   padding-top: 20px;
-  text-align: center;
+  text-align: justify;
+  font-style: italic;
+  font-weight: 600;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
