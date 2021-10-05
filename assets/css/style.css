@@ -187,6 +187,19 @@ footer {
   margin-left: auto;
 }
 
+.divider-img img {
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.pitch {
+  margin-top: 15px;
+  padding-top: 20px;
+  text-align: center;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .logo img {
     width: 100%;
