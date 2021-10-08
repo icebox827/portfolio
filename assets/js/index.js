@@ -15,3 +15,10 @@ var quotes = [
   'All men want, not something to do with, but something to do, or rather something to be. ― Henry David Thoreau',
   "You can't build a reputation on what you are going to do. ― Henry Ford"
 ];
+
+function newQuotes() {
+  let randomQuotes = Math.floor(Math.random() * (quotes.length));
+  const newQuote = document.getElementById("quoteDisplay");
+  
+  newQuote.innerHTML = quotes[randomQuotes];
+};
