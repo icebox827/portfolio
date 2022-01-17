@@ -38,6 +38,10 @@ body {
   -webkit-backdrop-filter: blur( 2.5px );
 }
 
+.quotes {
+  color: whitesmoke;
+}
+
 .text {
   width: 100%;
 }
