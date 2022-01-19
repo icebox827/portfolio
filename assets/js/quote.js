@@ -1,30 +1,34 @@
 import api from './api';
 
-// const quoteGenerator = () => {
-//   const modalBox = document.createElement('card');
-//   const text = document.createElement('h1');
-//   const author = document.createElement('h2');
+const quoteGenerator = () => {
+  const text = document.createElement('h5');
+  const author = document.createElement('h6');
 
-//   modalBox.classList.add('modal-card');
-//   text.classList.add('text');
-//   author.classList.add('author');
+  text.classList.add('quote-text');
+  author.classList.add('quote-author');
 
-//   text.setAttribute('id', 'text');
-//   author.setAttribute('id', 'author');
+  text.setAttribute('id', 'text');
+  author.setAttribute('id', 'author');
 
-//   modalBox.appendChild(text);
-//   modalBox.appendChild(author);
+  return quoteGenerator
+}
 
-//   return quoteGenerator;
-// };
+const displayQuote = (myData) => {
+  var randomText = Math.floor(Math.random())
+  const getText = document.getElementById('text');
+  const getAuthor = document.getElementById('author');
 
-// const displayQuote = (data) => {
-//   const getText = document.getElementById('text');
-//   const getAuthor = document.getElementById('author');
+  getText.innerHTML = myData.text;
+  getAuthor.innerHTML = myData.author;
+};
 
-//   getText.innerHTML = data.text;
-//   getAuthor.innerHTML = data.author;
-// }
+async function loadpage() {
+  const quotes = document.getElementById('quotesGenerator');
+
+  quotes.appendChild(quoteGenerator())
+}
+
+
 
 // async function loadpage() {
 //   const popup = document.getElementById('popup');
