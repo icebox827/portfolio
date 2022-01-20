@@ -1,3 +1,3 @@
-import loadpage from "./quote";
+import loadpage from './quote';
 
 loadpage();

@@ -14,7 +14,6 @@ const quoteGenerator = () => {
 }
 
 const displayQuote = (myData) => {
-  var randomText = Math.floor(Math.random() * myData)
   const getText = document.getElementById('text');
   const getAuthor = document.getElementById('author');
 
