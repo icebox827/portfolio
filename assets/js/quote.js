@@ -14,7 +14,7 @@ const quoteGenerator = () => {
 }
 
 const displayQuote = (myData) => {
-  var randomText = Math.floor(Math.random())
+  var randomText = Math.floor(Math.random() * myData)
   const getText = document.getElementById('text');
   const getAuthor = document.getElementById('author');
 
@@ -24,18 +24,10 @@ const displayQuote = (myData) => {
 
 async function loadpage() {
   const quotes = document.getElementById('quotesGenerator');
+  const fetchdata = await api();
 
-  quotes.appendChild(quoteGenerator())
+  quotes.appendChild(quoteGenerator());
+  (displayQuote(fetchdata));
 }
-
-
-
-// async function loadpage() {
-//   const popup = document.getElementById('popup');
-
-//   const fetchdata = await api();
-//   (displayQuote(fetchdata));
-//   popup.appendChild(quoteGenerator());
-// };
 
 export default loadpage;
